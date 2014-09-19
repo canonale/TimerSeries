@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="blanco">#fff</color>
+    <color name="gris_25">#a4a4a4</color>
+    <color name="gris_75">#363636</color>
+    <color name="gris_85">#262626</color>
+    <color name="gris_90">#202020</color>
+    <color name="negro">#000</color>
+    <color name="verde">#99cc00</color>
+    <color name="morado">#67004d</color>
+    <color name="rojo_claro">#e84433</color>
+    <color name="translucent_red">#80ff0000</color>
+    <color name="transparente">#0000</color>
+</resources>

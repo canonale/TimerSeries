@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+xmlns:android="http://schemas.android.com/apk/res/android">
+<PreferenceCategory android:title="@string/settings">
+    <CheckBoxPreference
+        android:key="vibracion"
+        android:title="@string/vibracion"
+        android:summary="@string/activar_vibracion" />
+    <ListPreference
+        android:key="sonido"
+        android:title="@string/tipo_sonido"
+        android:summary="@string/sonido_serie"
+        android:dialogTitle="@string/indicar_opcion"
+        android:entries="@array/sonido"
+        android:entryValues="@array/codsonido" />
+</PreferenceCategory>
+</PreferenceScreen>

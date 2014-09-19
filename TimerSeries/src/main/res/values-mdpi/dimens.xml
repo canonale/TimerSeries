@@ -1,0 +1,23 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">18dp</dimen>
+    <dimen name="activity_vertical_margin">14dp</dimen>
+    <dimen name="margin_big">24dp</dimen>
+    <dimen name="margin_medium">12dp</dimen>
+    <dimen name="margin_small">6dp</dimen>
+    <dimen name="margin_minimun">0dp</dimen>
+    <dimen name="ic_big">32dp</dimen>
+    <dimen name="ic_big_xxl">58dp</dimen>
+    <dimen name="ic_medium">30dp</dimen>
+    <dimen name="ic_small">22dp</dimen>
+    <dimen name="ic_small_extra">16dp</dimen>
+    <dimen name="ic_small_extra_dialog">14dp</dimen>
+    <dimen name="height_timer">85dp</dimen>
+    <dimen name="width_descanso">160dp</dimen>
+    <dimen name="titulos_rojo">20dp</dimen>
+    <dimen name="ancho_texto_dialogo">50dp</dimen>
+    <dimen name="ancho_dialogo">250dp</dimen>
+    <dimen name="alto_dialogo">200dp</dimen>
+    <dimen name="ancho_dialogo_campos">66dp</dimen>
+    <dimen name="ancho_tiempo_descanso">219dp</dimen>
+</resources>

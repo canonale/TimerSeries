@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+   <string-array name="sonido">
+      <item>@string/silbato_deportivo</item>
+      <item>@string/cronometro_digital</item>
+   </string-array>
+   <string-array name="codsonido">
+      <item>silvato</item>
+      <item>digital</item>
+   </string-array>
+    <string name="sonido_def">digital</string>
+    <string name="sonido_pref">true</string>
+</resources>

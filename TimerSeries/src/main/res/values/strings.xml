@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Timer Series</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="text_seriesname">Abdominales</string>
+    <string name="text_seriestime">00:00:20</string>
+    <string name="text_seriesmilesima">732</string>
+    <string name="text_descanso">Descanso</string>
+    <string name="text_serie">Serie</string>
+    <string name="text_serie_numero">1/7</string>
+    <string name="title_activity_temporizador">Temporizador</string>
+    <string name="reiniciado_tiempo">Reiniciado el tiempo</string>
+    <string name="nuevo_programa">Nuevo programa</string>
+    <string name="editar_programa">Editar programa</string>
+    <string name="settings">Preferencias</string>
+    <string name="guardar">Guardar</string>
+    <string name="nuevo">Nuevo</string>
+    <string name="menu">Menu</string>
+    <string name="database_E_get_datos">Fallo al obtener datos</string>
+    <string name="title_activity_series">Series</string>
+    <string name="dialogo_acciones_series">Acciones</string>
+
+    <string-array name="opciones_series">
+        <item>Usar</item>
+        <item>Editar</item>
+        <item>Borrar</item>
+    </string-array>
+
+    <string name="title_activity_edicion_serie">Editar Serie</string>
+    <string name="title_activity_editar_serie">Editar Serie</string>
+    <string name="actividad_editar">Actividad</string>
+    <string name="text_nombre">Nombre</string>
+    <string name="tiempo_vacio">00:00:00</string>
+    <string name="text_duracion">Duración</string>
+    <string name="text_series">Series</string>
+    <string name="text_continuo">Continuo</string>
+    <string name="text_activado">Activado</string>
+    <string name="text_serie_numero_edit">5</string>
+    <string name="text_aceptar">Aceptar</string>
+    <!-- Mensages de emergentes -->
+    <string name="dialogo_series_error">Fallo al guardar</string>
+    <string name="text_series_error">Todos los campos son obligatorios.</string>
+    <string name="dialogo_series_error_001">Fallo al modificar el campo</string>
+    <string name="text_series_error_001">Todos los campos tienen que tener informacion.</string>
+    <string name="dialogo_series_error_002">¿Elimnar la serie?</string>
+    <string name="text_series_error_002">La serie será eliminada.</string>
+    <string name="dialogo_reset_serie">Resetado el tiempo</string>
+    <string name="dialogo_select_serie">Seleccionar Serie</string>
+    <string name="dialogo_timer_campos_erroneo">Los campos son no validos</string>
+
+
+
+    <string name="text_serie_guardada">Se ha guardado la serie</string>
+    <string name="text_cancelar">Cancelar</string>
+    <string name="text_horas">Horas</string>
+    <string name="text_minutos">Minutos</string>
+    <string name="text_segundos">Segundos</string>
+    <string name="text_titulo_timer_dialog">Introduce la duracción</string>
+    <string name="text_borrado_serie">Se ha borrado la series</string>
+    <string name="text_serie_seleccionado">Se ha seleccionado la serie: </string>
+    <string name="text_find_ejercicio">El ejercicio ha terminado</string>
+
+    <string name="regex_email">^([^@\\s]+)@((?:[-a-z0-9]+\\.)+[a-z]{2,})$</string>
+    <string name="regex_phone">^\\(?\\d{3}[\\)?|-]\\d{3}[- ]\\d{4}((\\s=?)(ext\\.|x)\\d{1,4})?$</string>
+    <string name="regex_postal_code">^\\d{5}(-\\d{4})?$</string>
+    <string name="loadfixturesTitle">Carga de datos</string>
+    <string name="loadfixtures">¿Desea cargar unos datos por defecto?</string>
+    <string name="carga_datos_completada">Cargado los datos por defecto</string>
+
+
+    <string name="silbato_deportivo">Silbato deportivo</string>
+    <string name="cronometro_digital">Cronometro digital</string>
+    <string name="vibracion">Vibración</string>
+    <string name="activar_vibracion">Activar la vibración cuando cambian el estado de la serie</string>
+    <string name="tipo_sonido">Tipo de sonido</string>
+    <string name="sonido_serie">Sonido para indicar los cambios de estado en las serie</string>
+    <string name="indicar_opcion">Indicar opción</string>
+    <string name="text_preferences_save">Cargadas las preferencias</string>º
+
+
+</resources>

@@ -1,0 +1,181 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="@dimen/margin_medium"
+    tools:context=".EditarSerieActivity"
+    android:background="@color/gris_90"
+    android:orientation="vertical">
+    <ScrollView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/scroll"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+    <LinearLayout android:layout_height="match_parent" android:layout_width="match_parent" android:orientation="vertical">
+
+        <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/linearLayout">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/actividad_editar"
+                android:id="@+id/tv_actividad_editar"
+                style="@style/texto_linearoja"/>
+
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:id="@+id/imageView"
+                    style="@style/linearoja"/>
+
+            <EditText
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/txtNombreSerie"
+                    style="@style/campos_texto"
+                    android:hint="@string/text_nombre"/>
+
+            <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="2dp"
+                    android:id="@+id/imageView2"
+                    style="@style/lineagris"/>
+        </LinearLayout>
+
+        <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearLayout"
+                android:layout_alignLeft="@+id/linearLayout"
+                android:id="@+id/linearLayout2">
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_below="@+id/linearLayout"
+                    android:layout_alignLeft="@+id/linearLayout"
+                    android:layout_marginRight="@dimen/margin_small"
+                    android:layout_weight="0.45">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_duracion"
+                        android:id="@+id/tv_text_duracion"
+                        style="@style/texto_linearoja"/>
+
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:id="@+id/imageView4"
+                        style="@style/linearoja"/>
+
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="time"
+                        android:ems="10"
+                        android:focusableInTouchMode="false"
+                        android:id="@+id/txtTiempoSerie"
+                        style="@style/campos_texto"
+                        android:hint="@string/tiempo_vacio"/>
+
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:id="@+id/imageView3"
+                        style="@style/lineagris"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_series"
+                        android:id="@+id/tv_text_series"
+                        style="@style/texto_linearoja"/>
+
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:id="@+id/imageView4"
+                        style="@style/linearoja"/>
+
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="time"
+                        android:ems="10"
+                        android:id="@+id/txtRepeticiones"
+                        style="@style/campos_texto"
+                        android:hint="@string/text_serie_numero_edit"/>
+
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:id="@+id/imageView3"
+                        style="@style/lineagris"/>
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="@dimen/margin_small"
+                    android:layout_weight="0.45">
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_descanso"
+                        android:id="@+id/tv_text_descanso"
+                        style="@style/texto_linearoja"/>
+
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:id="@+id/imageView4"
+                        style="@style/linearoja"/>
+                <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:inputType="time"
+                        android:ems="10"
+                        android:id="@+id/txtTiempoDescanso"
+                        android:focusableInTouchMode="false"
+                        style="@style/campos_texto"
+                        android:hint="@string/tiempo_vacio"/>
+
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:id="@+id/imageView4"
+                        style="@style/lineagris"/>
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_continuo"
+                        android:id="@+id/tv_text_continuo"
+                        style="@style/texto_linearoja"/>
+
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="2dp"
+                        android:id="@+id/imageView4"
+                        style="@style/linearoja"/>
+
+                <CheckBox
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/text_activado"
+                        android:id="@+id/cbActivado"
+                        style="@style/campos_checkbox"/>
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

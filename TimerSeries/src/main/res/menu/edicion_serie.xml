@@ -1,0 +1,9 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+            android:id="@+id/menu_save"
+            android:showAsAction="always|withText"
+            android:icon="@drawable/abs__ic_cab_done_holo_dark"
+            android:text="@string/text_aceptar"
+            android:label="@string/text_aceptar"
+            android:title="@string/text_aceptar"/>
+</menu>
